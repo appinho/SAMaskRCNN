@@ -4,7 +4,7 @@ Image and Semantic Segmentation by Mask RCNN
 ## Demo of the KITTI Vision Benchmark Suite
 
 <p align="center">
-  <img src="./videos/kitti_demo.gif">
+  <img src="./kitti_demo.gif">
 </p>
 
 ## Setup
@@ -24,8 +24,6 @@ Folder structure:
     ├── images              # Folder of images 
     ├── results             # Folder of resulting images after executing predict.py
     ├── mask_rcnn_model.h5  # Neural network parameter file
-    .  .
-    .  .
 ```
 
 Execute:  
