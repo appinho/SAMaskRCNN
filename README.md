@@ -21,11 +21,9 @@ Folder structure:
 
 ```
     SAMaskRCNN
-    ├── images
-    │  ├── 0001
-    │  │    ├── data      # Store your images in here 
-    │  │    └── results   # Is created during predict.py
-    .  .
+    ├── images              # Folder of images 
+    ├── results             # Folder of resulting images after executing predict.py
+    ├── mask_rcnn_model.h5  # Neural network parameter file
     .  .
     .  .
 ```
