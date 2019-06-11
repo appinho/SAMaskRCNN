@@ -20,10 +20,10 @@ pip install -r requirements.txt
 Folder structure:  
 
 ```
-    SAMaskRCNN
-    ├── images              # Folder of images 
-    ├── results             # Folder of resulting images after executing predict.py
-    ├── mask_rcnn_model.h5  # Neural network parameter file
+SAMaskRCNN
+├── images              # Folder of images 
+├── results             # Folder of resulting images after executing predict.py
+├── mask_rcnn_model.h5  # Neural network parameter file
 ```
 
 Execute:  
