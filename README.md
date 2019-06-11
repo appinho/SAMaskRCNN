@@ -9,3 +9,14 @@ Run following command where images point to a directory in which the images are 
 ```
 python maskrcnn_predict.py --weights mask_rcnn_model.h5 --label coco_labels.txt --images images/0001/
 ```
+
+```
+    SAMaskRCNNKitti
+    ├── images
+    │  ├── 0001
+    │  │    ├── data 
+    │  │    └── results
+    .  .
+    .  .
+    .  .
+```
