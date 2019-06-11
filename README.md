@@ -12,7 +12,7 @@ Image and Semantic Segmentation by Mask RCNN
 ```
 git clone https://github.com/appinho/SAMaskRCNN.git
 cd SAMaskRCNN
-wget -O file https://drive.google.com/file/d/1ZyfpW2iaZvVNBxVAcb8DW0nBY2iXtSay/view?usp=sharing
+wget --no-check-certificate -r https://drive.google.com/file/d/1ZyfpW2iaZvVNBxVAcb8DW0nBY2iXtSay/view?usp=sharing -O model.h5
 pip install -r requirements.txt
 ```
 
