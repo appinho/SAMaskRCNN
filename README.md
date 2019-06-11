@@ -11,6 +11,7 @@ Image and Semantic Segmentation by Mask RCNN
 
 ```
 git clone https://github.com/appinho/SAMaskRCNN.git
+cd SAMaskRCNN
 pip install -r requirements.txt
 ```
 
