@@ -1,28 +1,36 @@
-# SAMaskRCNNKitti
-Image and Semantic Segmentation by Mask RCNN of the KITTI Vision Benchmark Suite
+# SAMaskRCNN
+Image and Semantic Segmentation by Mask RCNN
 
-## Demo
+## Demo of the KITTI Vision Benchmark Suite
 
 <p align="center">
-  <img src="./demo.gif">
+  <img src="./videos/kitti_demo.gif">
 </p>
+
+## Setup
+
+```
+pip install -r requirements.txt
+```
 
 ## Usage
 
-Run following command where images point to a directory in which the images are stored in a `data` subfolder and a resulting folder `results` is created:  
+Folder structure:  
+
+```
+    SAMaskRCNN
+    ├── images
+    │  ├── 0001
+    │  │    ├── data      # Store your images in here 
+    │  │    └── results   # Is created during predict.py
+    .  .
+    .  .
+    .  .
+```
+
+Execute:  
 
 ```
 python predict.py --weights mask_rcnn_model.h5 --label coco_labels.txt --images images/0001/
 python make_video.py --images images/0001/
-```
-
-```
-    SAMaskRCNNKitti
-    ├── images
-    │  ├── 0001
-    │  │    ├── data 
-    │  │    └── results
-    .  .
-    .  .
-    .  .
 ```
