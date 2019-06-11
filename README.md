@@ -29,6 +29,6 @@ SAMaskRCNN
 Execute:  
 
 ```
-python predict.py --weights mask_rcnn_model.h5 --label coco_labels.txt --images images/0001/
-python make_video.py --images images/0001/
+python predict.py --weights mask_rcnn_model.h5 --label coco_labels.txt --images images/
+python make_video.py --images images/
 ```
